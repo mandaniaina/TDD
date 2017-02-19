@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace AnagrammesTest
+namespace Anagrammes.Test
 {
     public class Class1
     {
@@ -16,7 +16,7 @@ namespace AnagrammesTest
             Assert.Equal(5, Add(2, 2));
         }
 
-        private static int Add(int x, int y)
+        static int Add(int x, int y)
         {
             return x + y;
         }
